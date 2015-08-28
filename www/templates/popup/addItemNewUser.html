@@ -1,0 +1,7 @@
+<input type="text" ng-model="item.description" placeholder="Item">
+<ion-list>
+	<ion-item ng-repeat="item_ in items">
+		{{ item_.description }}
+		<ion-delete-button class="ion-minus-circled"></ion-delete-button>
+	</ion-item>
+</ion-list>

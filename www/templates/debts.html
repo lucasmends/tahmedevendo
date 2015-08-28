@@ -1,0 +1,13 @@
+<ion-view view-title="Dividas">
+	<ion-content>
+	<ion-list>
+	<ion-item ng-repeat="debt in debts" show-delete="shouldShowDelete" class="item-thumnail-left" href="#/menu/debt/{{debt.id}}">
+		<img ng-src="{{debt.thumbnail}}" style="height: auto">
+		<h1>{{debt.name}}</h1>
+		<p>Total da dívida: {{debt.debtvalue}}</p>
+		<!--<p>Números de itens em dívida: {{debt.items}}</p>
+		<ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(item)"></ion-delete-button>-->
+	</ion-item>
+	</ion-list>
+	</ion-content>
+</ion-view>

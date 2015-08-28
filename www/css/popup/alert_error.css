@@ -1,0 +1,21 @@
+/*Popup's classes
+.popup-head
+.popup-title 
+.popup-body
+.popup-buttons 
+.popup
+*/
+
+
+.alertError .popup-head{
+  background: red  !important;
+}
+.alertError .popup-title {
+  color: #fff !important;
+}
+
+.alertError .popup-body{
+  background: blue !important;
+  color:#fff !important;
+  font-size:24px !important;
+}
